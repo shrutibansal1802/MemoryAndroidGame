@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/refreshbtn"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="@string/item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/newSize"
+        android:title="@string/choose_new_size" />
+    <item
+        android:id="@+id/change_theme"
+        android:title="@string/change_app_theme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/custom_game"
+        android:title="@string/create_custom_game"
+        app:showAsAction="never" />
+</menu>
